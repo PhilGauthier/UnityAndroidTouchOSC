@@ -92,7 +92,7 @@ public class TouchToPosition : MonoBehaviour
         //GUI.Label(new Rect(60, 20, 1200, 60 ), _rectPixels.ToString());
         for (int i=0; i < _touchCount; i++)
         {
-            GUI.Label(new Rect(70, 30 + 70 * i, 1200, 70), $"p{i}: " + _pos[i].ToString());
+            GUI.Label(new Rect(70, 50 + 50 * i, 1200, 50), $"p{i}: " + _pos[i].ToString());
         }
     }
 
